@@ -13,4 +13,4 @@ load_glove:
 
 .PHONY: generate_vocab
 generate_vocab:
-	cut -d ' ' -f1 glove/glove.6B.100d.txt > vocab.txt
+	cut -d ' ' -f1 glove/glove.6B.200d.txt > vocab.txt
